@@ -1,7 +1,5 @@
 # UCS HCL API Tool
 ### Table of Contents
-You're sections headers will be used to reference location of destination.
-
 - [Description](#description)
 - [How To Use](#how-to-use)
 - [References](#references)
@@ -13,9 +11,9 @@ If you have a few different B200 blades in your UCS environment, validating hard
 
 Instead, this script will do it for you. The high-level steps are...
 
-1. Login, query your UCSM environment (blades only for now).
-2. Confirm desired VMware ESXi version (you supply the version).
-3. Validate blade hardware against the UCS HCL. 
+1. Login and query the UCSM environment (blades only for now).
+2. Identify the script which VMware ESXi version you want to install on the blades.
+3. Identify which firmware version you want to upgrade to. 
 
 ---
 
@@ -25,7 +23,7 @@ Instead, this script will do it for you. The high-level steps are...
 
 First, go ahead and clone the repository.
 
-`git clone git@github.com:poweroftim/ucs-hcl-api-tool.git`
+`$ git clone git@github.com:poweroftim/ucs-hcl-api-tool.git`
 
 <br>
 <br>
@@ -97,13 +95,30 @@ Now you're ready to run the script.
 
 
 If everything works, you should be greeted with the login screen. 
+![Login Screen](/images/login.png)
+
+<br>
+<br>
+
+Login to the UCSM domain using local authentication. In this example, I'm using the UCS Sandbox on DevNet (ucspe/ucspe)
+![Login Screen](/images/login2.png)
+
+<br>
+<br>
+
+Once you're logged in, the script will query each of your blades along with each blade's processor and adapter versions. 
+![Login Screen](/images/query.png)
+
+
+
+
 
 
 
 #### API Reference
 
 ```html
-    <p>dummy code</p>
+    <p>coming soon!</p>
 ```
 [Back To The Top](#read-me-template)
 
@@ -111,5 +126,9 @@ If everything works, you should be greeted with the login screen.
 
 ## References
 [Back To The Top](#read-me-template)
+
+```html
+    <p>coming soon!</p>
+```
 
 ---
