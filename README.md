@@ -25,7 +25,7 @@ Instead, this script will do it for you. The high-level steps are...
 
 First, go ahead and clone the repository.
 
-`git clone git@github.com:poweroftim/ucs-hcl-api-tool.git`
+`$ git clone git@github.com:poweroftim/ucs-hcl-api-tool.git`
 
 <br>
 <br>
@@ -97,13 +97,13 @@ Now you're ready to run the script.
 
 
 If everything works, you should be greeted with the login screen. 
-
+![Login Screen](/images/login.png)
 
 
 #### API Reference
 
 ```html
-    <p>dummy code</p>
+    <p>coming soon!</p>
 ```
 [Back To The Top](#read-me-template)
 
@@ -111,5 +111,9 @@ If everything works, you should be greeted with the login screen.
 
 ## References
 [Back To The Top](#read-me-template)
+
+```html
+    <p>coming soon!</p>
+```
 
 ---
