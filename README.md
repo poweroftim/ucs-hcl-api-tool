@@ -72,7 +72,7 @@ Navigate to the ucs-hcl-api-tool directory.
 <br>
 <br>
 
-Install the required using the requirements.txt file. 
+Install the required packages using the requirements.txt file. 
 ```
 (demo3.8)$ pip install -r requirements.txt
 
