@@ -129,7 +129,7 @@ Then, you'll enter the blade firmware version you want to run. This list is depe
 
 There were two areas that made this difficult for someone starting out (like me). 
 
-- First, it's not easy to get a dn for a particular object in each blade. I found this example that helped me query each blade in a loop. https://stackoverflow.com/questions/33703398/cisco-ucs-python-sdk-script-for-querying-firmware-versions
+- First, it's not easy to get a dn for a particular object in each blade. It's not pretty, but I did find this example that helped me query each blade - and it got the job done. https://stackoverflow.com/questions/33703398/cisco-ucs-python-sdk-script-for-querying-firmware-versions
 
 - Second, once I got the objects from UCSM, I had no idea how to interface with the HCL API - I just knew you could. I learned how to access the UCS HCL API and walk the server object tree using this resource. Still, it was a lot of work and the process really pushed my understanding. There's no way I would have figured this out without this guy's walkthrough. https://github.com/sgaree/ucs-hcl-examples/blob/master/ServerPivot.ipynb
 
