@@ -121,8 +121,22 @@ Next, you'll enter the VMware ESXi version you want to run on the blades. You ca
 Then, you'll enter the blade firmware version you want to run. This list is dependent on the VMware ESXi version. If you don't see the version you want on the list, you'll may need to enter a different ESXi version. If the firmeware version you're looking for still isn't available, your blades may not support that firmware version. Check with the release notes for that version to confirm. 
 ![Login Screen](/images/firmwareversion.png)
 
+<br>
+<br>
 
+Once you enter the firmware version, you'll get an immediate response. A query without a match looks like this - 
+![Login Screen](/images/result1.png)
 
+<br>
+<br>
+
+A query with a match looks like this - repeat the process as needed.
+![Login Screen](/images/result2.png)
+
+<br>
+<br>
+<br>
+<br>
 
 
 ## References
