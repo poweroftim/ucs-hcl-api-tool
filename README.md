@@ -7,13 +7,13 @@
 ---
 
 ## Description
-If you have a few different B200 blades in your UCS environment, validating hardware against the UCS HCL site can be a hassle. 
+Use case: If you have a several different blade models in your UCS environment, validating the hardware of each blade with a specific ESXi version on the UCS HCL site (https://ucshcltool.cloudapps.cisco.com/) can be a pain. 
 
-Instead, this script will do it for you. The high-level steps are...
+To save time, this script will do it for you. The high-level steps are...
 
 1. Login and query the UCSM environment (blades only for now).
-2. Identify the script which VMware ESXi version you want to install on the blades.
-3. Identify which firmware version you want to upgrade to. 
+2. Identify which VMware ESXi version you want to install on the blades.
+3. Identify which firmware version (host firmware package) you want to upgrade to.
 
 ---
 
@@ -21,7 +21,7 @@ Instead, this script will do it for you. The high-level steps are...
 
 #### Installation
 
-First, go ahead and clone the repository.
+First, go ahead and clone the repository so you have a local copy.
 
 `$ git clone git@github.com:poweroftim/ucs-hcl-api-tool.git`
 
