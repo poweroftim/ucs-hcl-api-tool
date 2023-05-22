@@ -1,7 +1,7 @@
 clint==0.5.1
 pandas==1.0.4
 python-dateutil==2.8.1
-requests==2.23.0
+requests==2.31.0
 tqdm==4.46.0
 ucsmsdk==0.9.10
 requests-cache==0.5.2
